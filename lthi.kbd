@@ -1,0 +1,50 @@
+(defcfg
+  input  (low-level-hook)
+  output (send-event-sink)
+)
+
+(defalias
+  def (layer-switch default)
+  nvq (layer-toggle nav)
+  ;; mtq (tap-next ret (layer-toggle nav))
+  mtt (tap-hold-next 100 ret spc)
+  mtc (tap-next spc lctl)
+  mta (tap-next ret lalt)
+  kil A-f4
+  stp C-c
+  mth (multi-tap 300 home end)
+  mtp (multi-tap 300 pgup pgdn)
+  min M-down
+  nmin #(A-spc P200 n)
+  vim C-A-S-M-V
+  amd (around-next tab)
+  thn (tap-hold-next 200 tab A-tab)
+  tnh (tap-hold-next 200 S-tab A-tab)
+)
+
+(defsrc
+  esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12          ssrq slck pause
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    \  bspc ins  home pgup  
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]            del  end  pgdn  
+  caps a    s    d    f    g    h    j    k    l    ;    '    ret                   
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft                   up         
+  lctl lmet lalt           spc            ralt rmet cmp  rctl              left down rght  
+)
+
+(deflayer default
+  esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12          _    _    _                    
+  grv  q    w    e    r    t    @vim y    u    i    o    p    [    ]  \    pgup home _    
+  tab  a    s    d    f    g    bspc h    j    k    l    ;    '            pgdn end  del
+  lsft z    x    c    v    b    ret  n    m    ,    .    /    rsft                  
+  esc  lalt lalt spc  spc  lctl lsft spc  spc  ralt ralt lmet                   up         
+  esc  @tnh @kil      @nvq                @min f12  @thn lctl             left  down rght  
+)
+
+(deflayer nav
+  _    _    _    _    _    _    _    _    _    _    _    _    _             _   _   _                    
+  _    1    2    3    4    5    6    7    8    9    0    -    =    _   _    _   _   _    
+  _    _    _    _    _    _    _    left down up   rght _    _             _   _   _  
+  lsft _    _    _    _    _    _    home pgdn pgup end  _    rsft                 
+  _    _    _    _    _    _    _    _    _    _    _    _                      _           
+  _    _    _         _                   _    _    _    _                  _   _   _  
+)
