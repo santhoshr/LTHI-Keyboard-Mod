@@ -40,7 +40,7 @@ About layout:
 1. After experimenting with remapping like capslock to control or capslock to escape, and other mods, still felt something is missing
 2. After this row upgrade mod, I tried, right space bar, left enter key with just, two keys either side for thumbs, but hard to remember enter and space to hit properly, tried many combinations like alt, return, space, control, etc
 3. Also increased central column gap from one to two as well, since alphabets on the right side can be accommodated, but it did not increase productivity due to gap being wider and hard to hit central column with two modifiers
-4. Finally came up with these after seeing x-bows keyboard, almost four keys at thumb rest to hit space bar, exactly like you do when you have full size space bar, the central mod layer with backspace, return, control and shift, brings all the important keys closer. Kudus to x-bows to get it right, haven’t used x-bows by the way, but the design is almost too similar to regular keyboard even eliminating orthogonal design followed by many ergonomic and 40pc keyboards
+4. Finally came up with these after seeing x-bows keyboard, almost four keys at thumb rest to hit space bar, exactly like you do when you have full size space bar, the central mod layer with backspace, return, control and shift, brings all the important keys closer
 
 Links:
 
