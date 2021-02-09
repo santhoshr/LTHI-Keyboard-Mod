@@ -36,15 +36,15 @@
   grv  q    w    e    r    t    @vim y    u    i    o    p    [    ]  \    pgup home _    
   tab  a    s    d    f    g    bspc h    j    k    l    ;    '            pgdn end  del
   lsft z    x    c    v    b    ret  n    m    ,    .    /    rsft                  
-  esc  lalt lalt spc  spc  lctl lsft spc  spc  ralt ralt lmet                   up         
+  esc  lalt lalt ret  ret  lctl lsft spc  spc  ralt ralt lmet                   up         
   esc  @tnh @kil      @nvq                @min f12  @thn lctl             left  down rght  
 )
 
 (deflayer nav
-  _    _    _    _    _    _    _    _    _    _    _    _    _             _   _   _                    
-  _    1    2    3    4    5    6    7    8    9    0    -    =    _   _    _   _   _    
+  _    1    2    3    4    5    6    7    8    9    0    -    -             _   _   _                    
+  _    1    2    3    4    5    _    6    7    8    9    0    -    =   _    _   _   _    
   _    _    _    _    _    _    _    left down up   rght _    _             _   _   _  
-  lsft _    _    _    _    _    _    home pgdn pgup end  _    rsft                 
+  lsft !    @    #    $    %    %    ^    &    *    \(   \)   rsft                 
   _    _    _    _    _    _    _    _    _    _    _    _                      _           
   _    _    _         _                   _    _    _    _                  _   _   _  
 )
