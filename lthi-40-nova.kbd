@@ -16,14 +16,14 @@
   lrhl (layer-rem hl)
 
   ;; Home Keys
-  thjs (tap-hold-next-release 250 j lsft)
-  thkc (tap-hold-next-release 250 k lctl)
-  thla (tap-hold-next-release 350 l lalt)
-  thsr (tap-hold-next-release 250 ; lmet)
-  thfs (tap-hold-next-release 250 f lsft)
-  thdc (tap-hold-next-release 250 d lctl)
-  thsa (tap-hold-next-release 350 s lalt)
-  thar (tap-hold-next-release 250 a lmet)
+  thjs (tap-hold-next-release 200 j lsft)
+  thkc (tap-hold-next-release 200 k lctl)
+  thla (tap-hold-next-release 250 l lalt)
+  thsr (tap-hold-next-release 200 ; lmet)
+  thfs (tap-hold-next-release 200 f lsft)
+  thdc (tap-hold-next-release 200 d lctl)
+  thsa (tap-hold-next-release 250 s lalt)
+  thar (tap-hold-next-release 200 a lmet)
 
   ;; Shortcuts
   red C-y
