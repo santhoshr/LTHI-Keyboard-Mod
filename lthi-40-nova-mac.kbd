@@ -21,13 +21,13 @@
 
   ;; Home Keys
   thjs (tap-hold-next-release 200 j lsft)
-  thkc (tap-hold-next-release 200 k lctl)
+  thkc (tap-hold-next-release 200 k lmet)
   thla (tap-hold-next-release 250 l lalt)
-  thsr (tap-hold-next-release 200 ; lmet)
+  thsr (tap-hold-next-release 200 ; lctl)
   thfs (tap-hold-next-release 200 f lsft)
-  thdc (tap-hold-next-release 200 d lctl)
+  thdc (tap-hold-next-release 200 d lmet)
   thsa (tap-hold-next-release 250 s lalt)
-  thar (tap-hold-next-release 200 a lmet)
+  thar (tap-hold-next-release 200 a lctl)
 
   ;; Shortcuts
   red M-y
